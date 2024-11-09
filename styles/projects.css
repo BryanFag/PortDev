@@ -1,0 +1,76 @@
+.projects {
+    display: grid;
+    place-items: center;
+    background-color: var(--gray-200);
+    color: var(--red);
+}
+
+.name {
+    color: var(--red);
+    font: var(--subtitle);
+    padding-bottom: 8px;
+}
+
+.name-sub {
+    color: var(--gray-600);
+    font: var(--title-md);
+    padding-bottom: 56px;
+}
+
+.project-card {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding-bottom: 144px;
+}
+
+.card {
+    position: relative; 
+    width: 100%;
+    background-color: var(--gray-300);
+    width: 330px;
+    height: 280px;
+    border-radius: 10px;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.card-image {
+    border-radius: 5px;
+    width: 306px;
+    height: 156px;
+    object-fit: cover;
+}
+
+.card-info {
+    padding-top: 20px;
+}
+
+.title-card {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--gray-600);
+    text-align: left;
+    width: 90%;
+    font: var(--title-sm);
+}
+
+.subtitle-card {
+    z-index: 1;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--gray-500);
+    padding-top: 30px;
+    text-align: left;
+    width: 90%;
+    font: var(--text-sm);
+}
+
+
+
+

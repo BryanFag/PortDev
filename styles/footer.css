@@ -1,0 +1,75 @@
+footer {
+    background-image        : url(../assets/Background_Contacts.png);
+    background-size         : 100% 100%;
+    background-position     : top center;
+    background-repeat       : no-repeat;
+    width                   : 100%;
+    height                  : 787px;
+}
+
+.contact {
+    padding-top             : 128px;
+}
+
+.pre-title-contact {
+    color                   : var(--purple);
+    font                    : var(--subtitle);
+    font-family             : 'Inconsolata', sans-serif;
+    text-align              : center;
+    padding-top             : 80px;
+    padding-bottom         : 8px;
+}
+
+.title-contact {
+    color                   : var(--gray-600);
+    font                    : var(--title-md);
+    font-weight             : bold;
+    text-align              : center;
+    padding-bottom          : 8px;
+}
+
+.sub-contact {
+    color                   : var(--gray-500);
+    font                    : var(--text-md);
+    text-align              : center;
+    padding-bottom          : 48px;
+}
+
+.social {
+    display                 : grid;
+    justify-content         : center;
+    gap                     : 16px;
+}
+
+.social-button {
+    display                 : flex;
+    justify-content         : space-between;
+    align-items             : center;
+    width                   : 400px;
+    height                  : 68px;
+    background-color        : var(--gray-300);
+    border-radius           : 8px;
+    padding                 : 0 16px;
+}
+
+.social-left {
+    display                 : flex;
+    align-items             : center;
+}
+
+.social-icon {
+    width                   : 20px;
+    height                  : 20px;
+    margin-right            : 8px;
+}
+
+.social-icon-arrow {
+    width                   : 20px;
+    height                  : 20px;
+}
+
+a {
+    text-decoration         : none;
+    color                   : var(--gray-500);
+    font                    : var(--text-md);
+}

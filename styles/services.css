@@ -1,0 +1,46 @@
+.services {
+    display: grid;
+    place-items: center;
+    background-color: var(--gray-100);
+    padding: 88px 120px 120px 120px; /*CIMA, DIREITA, BAIXO, ESQUERDA*/
+}
+
+.services img {
+    width: 48px;
+    height: auto;
+    padding-bottom: 20px;
+    justify-self: start; /* Alinha a imagem à esquerda dentro do card */
+}
+
+.intro-serv {
+    text-align: center;
+}
+
+.services-cards {
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+.card-service {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    border: 2px solid var(--gray-200);
+    width: 280px;
+    height: 155px;
+    border-radius: 10px;
+    padding:  20px 20px 20px 20px;
+    text-align: left;
+}
+
+.title-card-serv {
+    font: var(--title-sm);
+    color: var(--gray-600);
+    padding-bottom: 8px;
+}
+
+.sub-card-serv {
+    font: var(--text-sm);
+    color: var(--gray-400);
+}
